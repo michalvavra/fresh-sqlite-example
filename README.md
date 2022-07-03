@@ -1,6 +1,7 @@
 # fresh-sqlite-example
 
 [Fresh][fresh] example with [SQLite][sqlite] and [kysely][kysely] query builder.
+
 See running [example][app-url] on [Fly.io][fly-io].
 
 ## Prerequisites
@@ -20,7 +21,7 @@ See running [example][app-url] on [Fly.io][fly-io].
 ```sh
 deno task start
 
-#
+# or
 
 just run
 ```
