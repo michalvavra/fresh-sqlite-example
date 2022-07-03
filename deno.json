@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "migrate": "deno run -A utils/db_migration.ts",
+    "migrate_up": "deno run -A utils/db_migration.ts --up",
+    "migrate_down": "deno run -A utils/db_migration.ts --down"
+  },
+  "importMap": "./import_map.json"
+}
